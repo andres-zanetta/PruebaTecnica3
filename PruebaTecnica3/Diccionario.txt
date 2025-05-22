@@ -1,0 +1,24 @@
+﻿ Sistema de Tickets – Diccionario de Datos
+
+## Cliente
+- **Id** (`int`): Identificador único del cliente.
+- **Dni** (`string`): Documento Nacional de Identidad del cliente.
+- **Nombre** (`string`): Nombre del cliente.
+- **Apellido** (`string`): Apellido del cliente.
+
+## Ticket
+- **Id** (`int`): Identificador único del ticket.
+- **Fila** (`int`): Número de fila asignada.
+- **Asiento** (`int`): Número de asiento asignado.
+- **Precio** (`double`): Precio pagado por el ticket.
+- **ClienteAsignado** (`Cliente`): Cliente asociado al ticket. Puede ser null.
+
+## Variables Globales
+- **tickets** (`List<Ticket>`): Lista de todos los tickets registrados en memoria.
+
+## Funciones Principales
+- **Mostrar()**: Muestra la información del ticket.
+- **CargarTicketsDePrueba()**: Carga una lista de tickets predefinidos.
+- **MostrarTotalRecaudado()**: Calcula e imprime el total recaudado.
+- **MostrarTicketsPorFila(fila)**: Muestra todos los tickets de una fila específica.
+- **MostrarTicketsPorCliente(dni)**: Muestra los tickets comprados por un cliente según su DNI.
