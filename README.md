@@ -9,6 +9,10 @@ Crear un método que recorra la estructura seleccionada y sume los precios de to
 
 Solicitar al usuario que ingrese un número de fila. A partir de esto, mostrar por pantalla los datos de los tickets pertenecientes a esa fila. No es necesario usar IGU para esto.
 
+Consideraciones: No es necesaria implementación ni de IGU ni de BD. Se evaluará 100% el manejo lógico del desarrollo de la aplicación.
+
+Extra: En caso de que se desee agregar una “plantilla” para clientes con los datos: id, dni, nombre, apellido. ¿Cómo se implementaría? ¿De qué manera se relacionaría con ticket para que el mismo posea los datos del cliente que tiene asignado? Realizar la implementación.
+
 /*
 ============================================
 DICCIONARIO DE DATOS – SISTEMA DE TICKETS
